@@ -38,8 +38,8 @@ custom_file_path:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 # Dark Mode
 darkmode: auto
@@ -102,7 +102,7 @@ menu:
   archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
-  commonweal: /404/ || fa fa-heartbeat
+  #commonweal: /404/ || fa fa-heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -178,8 +178,13 @@ links_settings:
   layout: block
 
 links:
-  #Title: https://example.com
-
+  Investopedia: https://www.investopedia.com/
+  Douban: https://www.douban.com/people/252605289/?_i=1308516Ws2mZOu
+  Baidu: http://www.baidu.com
+  上交所: http://www.sse.com.cn/
+  中青报: https://www.youth.cn/
+  Marketwatch: https://www.marketwatch.com/
+  巨潮资讯: http://www.cninfo.com.cn/new/index
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
 toc:

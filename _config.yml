@@ -5,7 +5,7 @@
 # Site
 title: 滴水成濯锦
 subtitle: '简单思考'
-description: '成为一个爱思考，爱经历，不断成长的Zhi者'
+description: '一个思考，经历，成长的人'
 keywords: 思考,商业,投资,生活,学习,有趣,交易
 author: Rice Wayne
 language: zh-CN
@@ -29,6 +29,15 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# feed
+# Dependencies: https://github.com/hexojs/hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
 
 # Writing
 new_post_name: :title.md # File name of new posts
