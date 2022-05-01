@@ -38,7 +38,7 @@ custom_file_path:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
+#scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
@@ -156,7 +156,7 @@ site_state: true
 social:
   #GitHub: https://github.com/yourname || fab fa-github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  #Weibo: https://weibo.com/yourname || fab fa-weibo
+  #Weibo: https://weibo.com || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -178,7 +178,7 @@ links_settings:
   layout: block
 
 links:
-  #Title: https://example.com
+  巨潮资讯: http://www.cninfo.com.cn/new/index
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
