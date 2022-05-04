@@ -99,7 +99,7 @@ menu:
   about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
-  archives: /archives/ || fa fa-archive
+  #archives: /archives/ || fa fa-archive
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   commonweal: /404/ || fa fa-heartbeat
@@ -179,6 +179,10 @@ links_settings:
 
 links:
   Baidu: https://www.baidu.com
+  Investopedia: https://www.investopedia.com/
+  Douban: https://www.douban.com/people/252605289/?_i=1308516Ws2mZOu
+  Baidu: http://www.baidu.com
+  上交所: http://www.sse.com.cn/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
