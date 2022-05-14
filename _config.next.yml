@@ -59,3 +59,7 @@ reward:
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
+
+auto_excerpt:
+enable: true #将原有的false改为true
+length: 300  #设置预览的字数
