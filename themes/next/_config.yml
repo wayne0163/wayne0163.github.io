@@ -100,6 +100,7 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  guestbook: /guestbook/ || fa fa-book
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -140,7 +141,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: /images/smile.jpg
   # If true, the avatar will be displayed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
@@ -178,7 +179,13 @@ links_settings:
   layout: block
 
 links:
-  #Baidu: https://www.baidu.com
+  Investopedia: https://www.investopedia.com/
+  Douban: https://www.douban.com/people/252605289/?_i=1308516Ws2mZOu
+  Baidu: http://www.baidu.com
+  上交所: http://www.sse.com.cn/
+  中青报: https://www.youth.cn/
+  Marketwatch: https://www.marketwatch.com/
+  巨潮资讯: http://www.cninfo.com.cn/new/index
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
@@ -275,7 +282,7 @@ reward_settings:
   #comment: Buy me a coffee
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
@@ -332,7 +339,6 @@ calendar:
   showDeleted: false
   singleEvents: true
   maxResults: 250
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -618,6 +624,18 @@ changyan:
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 livere_uid: # <your_uid>
 
+# valine
+valine:
+  enable: true
+  appid: xGaw0GHkQyjql1r4PjYlPLul-MdYXbMMI
+  appkey: B4rsGDnx9pwkMIUq8jq1qzeY
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 来呀！来呀！
+  avatar: mm # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 15 # pagination size
+
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
@@ -901,3 +919,7 @@ vendors:
 css: css
 js: js
 images: images
+
+auto_excerpt:
+enable: true #将原有的false改为true
+length: 150  #设置预览的字数
