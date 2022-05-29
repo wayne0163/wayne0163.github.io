@@ -277,9 +277,9 @@ tag_icon: false
 # Front-matter variable (nonsupport animation).
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
-  #comment: Buy me a coffee
+  comment: Buy me a coffee
 
 reward:
   wechatpay: /images/wechatpay.png
@@ -581,7 +581,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active: valine
+  active: 
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -591,7 +591,7 @@ comments:
     #disqus:
     #  text: Load Disqus
     #  order: -1
-    #gitalk:
+    #  gitalk:
     #  order: -2
 
 # Disqus
@@ -624,27 +624,17 @@ changyan:
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 livere_uid: # <your_uid>
 
-# valine
-valine:
-  enable: true
-  appid: xGaw0GHkQyjql1r4PjYlPLul-MdYXbMMI
-  appkey: B4rsGDnx9pwkMIUq8jq1qzeY
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: 来呀！来呀！
-  avatar: mm # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 15 # pagination size
+
 
 # Gitalk
 # For more information: https://gitalk.github.io
 gitalk:
   enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  github_id: wayne0163 # GitHub repo owner
+  repo: wayne0163.github.io # Repository name to store issues
+  client_id: a0bfc9a785a25e79bd20 # GitHub Application Client ID
+  client_secret: f0dc268c44faffd0009c52421a9e939d21b02f4b # GitHub Application Client Secret
+  admin_user: wayne0163 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # When the official proxy is not available, you can change it to your own proxy address
   proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy address
