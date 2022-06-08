@@ -626,7 +626,7 @@ livere_uid: # <your_uid>
 
 # valine
 valine:
-  enable: true
+  enable: false
   appid: xGaw0GHkQyjql1r4PjYlPLul-MdYXbMMI
   appkey: B4rsGDnx9pwkMIUq8jq1qzeY
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
