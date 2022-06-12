@@ -103,6 +103,19 @@ include:
 exclude:
 ignore:
 
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Security
+##
+encrypt: # hexo-blog-encrypt
+  enable: true
+
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
