@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>滴水成濯锦</title>
+  
+  <subtitle>书和咖啡不能少</subtitle>
+  <link href="https://wayne0163.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://wayne0163.github.io/"/>
+  <updated>2022-07-25T08:39:31.000Z</updated>
+  <id>https://wayne0163.github.io/</id>
+  
+  <author>
+    <name>Rice Wayne</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://wayne0163.github.io/2022/07/25/test/"/>
+    <id>https://wayne0163.github.io/2022/07/25/test/</id>
+    <published>2022-07-25T08:39:31.000Z</published>
+    <updated>2022-07-25T08:39:31.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;wojiushi我就是试一试，这台电脑是不是可以用&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>20220713大盘小盘股的差异和近期交易总结</title>
+    <link href="https://wayne0163.github.io/2022/07/13/20220713%E5%A4%A7%E7%9B%98%E5%B0%8F%E7%9B%98%E8%82%A1%E7%9A%84%E5%B7%AE%E5%BC%82%E5%92%8C%E8%BF%91%E6%9C%9F%E4%BA%A4%E6%98%93%E6%80%BB%E7%BB%93/"/>
+    <id>https://wayne0163.github.io/2022/07/13/20220713%E5%A4%A7%E7%9B%98%E5%B0%8F%E7%9B%98%E8%82%A1%E7%9A%84%E5%B7%AE%E5%BC%82%E5%92%8C%E8%BF%91%E6%9C%9F%E4%BA%A4%E6%98%93%E6%80%BB%E7%BB%93/</id>
+    <published>2022-07-13T09:57:54.000Z</published>
+    <updated>2022-07-13T10:52:32.000Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="交易思考" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/"/>
+    
+    <category term="交易记录" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/%E4%BA%A4%E6%98%93%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="交易" scheme="https://wayne0163.github.io/tags/%E4%BA%A4%E6%98%93/"/>
+    
+    <category term="行为" scheme="https://wayne0163.github.io/tags/%E8%A1%8C%E4%B8%BA/"/>
+    
+    <category term="教训" scheme="https://wayne0163.github.io/tags/%E6%95%99%E8%AE%AD/"/>
+    
+    <category term="记录" scheme="https://wayne0163.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220709学习在mac使用hexo和git</title>
+    <link href="https://wayne0163.github.io/2022/07/10/20220709%E5%AD%A6%E4%B9%A0%E5%9C%A8mac%E4%BD%BF%E7%94%A8hexo%E5%92%8Cgit/"/>
+    <id>https://wayne0163.github.io/2022/07/10/20220709%E5%AD%A6%E4%B9%A0%E5%9C%A8mac%E4%BD%BF%E7%94%A8hexo%E5%92%8Cgit/</id>
+    <published>2022-07-10T10:15:54.000Z</published>
+    <updated>2022-07-10T10:15:54.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../images/coffee61.jpg&quot; alt=&quot;着急&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python&amp;数据分析" scheme="https://wayne0163.github.io/categories/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    <category term="网络" scheme="https://wayne0163.github.io/categories/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="BLOG" scheme="https://wayne0163.github.io/tags/BLOG/"/>
+    
+    <category term="网络" scheme="https://wayne0163.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="git" scheme="https://wayne0163.github.io/tags/git/"/>
+    
+    <category term="apple" scheme="https://wayne0163.github.io/tags/apple/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220629我的hexo重装和问题</title>
+    <link href="https://wayne0163.github.io/2022/06/29/20220629%E6%88%91%E7%9A%84hexo%E9%87%8D%E8%A3%85%E5%92%8C%E9%97%AE%E9%A2%98/"/>
+    <id>https://wayne0163.github.io/2022/06/29/20220629%E6%88%91%E7%9A%84hexo%E9%87%8D%E8%A3%85%E5%92%8C%E9%97%AE%E9%A2%98/</id>
+    <published>2022-06-29T09:49:47.000Z</published>
+    <updated>2022-06-30T09:49:47.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;昨天莫名其妙，在git pull的时候，告诉我什么地方错了，结果参考网络的东西，直接强制pull main分支的内容，但是因为不是专业的，直接忘掉了，我的全部hexo文件是在github的hexo分支中。结果，把静态Blog页面全部clone了下来。今天开始重装hexo。我主要参考了这篇文章。应该可以了，下次可以参考了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python&amp;数据分析" scheme="https://wayne0163.github.io/categories/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/"/>
+    
+    <category term="网络" scheme="https://wayne0163.github.io/categories/Python-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="BLOG" scheme="https://wayne0163.github.io/tags/BLOG/"/>
+    
+    <category term="网络" scheme="https://wayne0163.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="git" scheme="https://wayne0163.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220622行为金融1恐惧</title>
+    <link href="https://wayne0163.github.io/2022/06/22/20220622%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D1%E6%81%90%E6%83%A7/"/>
+    <id>https://wayne0163.github.io/2022/06/22/20220622%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D1%E6%81%90%E6%83%A7/</id>
+    <published>2022-06-22T01:26:37.000Z</published>
+    <updated>2022-06-22T01:26:37.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;今天想总结一下自己在投资中的种种心理素质问题。前几个月看了《投资者的怪圈》（）、《行为金融学——洞察非理性投资心理和市场》（James Montier，英）、《思考，快与慢》（丹尼尔·卡尼曼），包括学习了得到中的《行为金融学》（陆蓉，上海财大）等书籍和教程。结合自己在实际投资中运用的的种种表现，看看是否在不知觉中实际也是这么像专家们说的，各种非理性呢。记录下来，好好看看。这篇主要是各种恐惧和信心。&lt;br&gt;从最近交易心情和情绪来看，这两种情绪占据了80%以上。似乎两种情绪不相关，甚至相反。但是正因为相反，反而突出表现了作为投资人的自己的种种非理性。不然怎么解释，上午还很有信心，下午大盘或者个股猛的下跌，就变得恐惧了呢？&lt;br&gt;&lt;img src=&quot;/../images/coffee19.jpg&quot; alt=&quot;行为金融学&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="交易思考" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/"/>
+    
+    <category term="行为金融" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/%E8%A1%8C%E4%B8%BA%E9%87%91%E8%9E%8D/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="交易" scheme="https://wayne0163.github.io/tags/%E4%BA%A4%E6%98%93/"/>
+    
+    <category term="行为" scheme="https://wayne0163.github.io/tags/%E8%A1%8C%E4%B8%BA/"/>
+    
+    <category term="心理" scheme="https://wayne0163.github.io/tags/%E5%BF%83%E7%90%86/"/>
+    
+    <category term="金融" scheme="https://wayne0163.github.io/tags/%E9%87%91%E8%9E%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220609移动夜宵车项目的乱弹2</title>
+    <link href="https://wayne0163.github.io/2022/06/13/20220613%E7%A7%BB%E5%8A%A8%E5%A4%9C%E5%AE%B5%E8%BD%A6%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B9%B1%E5%BC%B92/"/>
+    <id>https://wayne0163.github.io/2022/06/13/20220613%E7%A7%BB%E5%8A%A8%E5%A4%9C%E5%AE%B5%E8%BD%A6%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B9%B1%E5%BC%B92/</id>
+    <published>2022-06-13T03:31:08.000Z</published>
+    <updated>2022-06-13T08:51:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;上次说到夜摊模式，这次弹弹租车模式的规划和入手。&lt;br&gt;&lt;img src=&quot;/../images/%E5%A4%9C%E6%91%8A2.jpg&quot; alt=&quot;小店&quot;&gt;&lt;br&gt;坦率地讲，“租车模式”可比“夜摊模式”困难多了。&lt;br&gt;首先，“租车模式”是一个2B然后在由B来2C的模式和流程。2B本身就要比2C困难得多。面对上游可能是一个个大的整车厂或者经销商，对下游是一个个希望能利用移动车辆赚钱生活的客户。如何说服车经销商或者整车厂合作，把价格能够谈下来控制在一定范围内；对下游是如何展示利用这些车辆和服务能让他们相信这种模式可以让他们很好的赚本。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活乱弹" scheme="https://wayne0163.github.io/categories/%E7%94%9F%E6%B4%BB%E4%B9%B1%E5%BC%B9/"/>
+    
+    <category term="项目乱弹" scheme="https://wayne0163.github.io/categories/%E7%94%9F%E6%B4%BB%E4%B9%B1%E5%BC%B9/%E9%A1%B9%E7%9B%AE%E4%B9%B1%E5%BC%B9/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="生活" scheme="https://wayne0163.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="项目" scheme="https://wayne0163.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220612最近交易的回顾</title>
+    <link href="https://wayne0163.github.io/2022/06/12/20220612%E6%9C%80%E8%BF%91%E4%BA%A4%E6%98%93%E7%9A%84%E5%9B%9E%E9%A1%BE/"/>
+    <id>https://wayne0163.github.io/2022/06/12/20220612%E6%9C%80%E8%BF%91%E4%BA%A4%E6%98%93%E7%9A%84%E5%9B%9E%E9%A1%BE/</id>
+    <published>2022-06-12T06:57:54.000Z</published>
+    <updated>2022-06-12T06:57:54.000Z</updated>
+    
+    
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
+    
+    
+    
+    <category term="交易思考" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/"/>
+    
+    <category term="交易记录" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/%E4%BA%A4%E6%98%93%E8%AE%B0%E5%BD%95/"/>
+    
+    
+    <category term="交易" scheme="https://wayne0163.github.io/tags/%E4%BA%A4%E6%98%93/"/>
+    
+    <category term="行为" scheme="https://wayne0163.github.io/tags/%E8%A1%8C%E4%B8%BA/"/>
+    
+    <category term="心理" scheme="https://wayne0163.github.io/tags/%E5%BF%83%E7%90%86/"/>
+    
+    <category term="记录" scheme="https://wayne0163.github.io/tags/%E8%AE%B0%E5%BD%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220610巴菲特谈交易摘要</title>
+    <link href="https://wayne0163.github.io/2022/06/10/20220610%E5%B7%B4%E8%8F%B2%E7%89%B9%E8%B0%88%E4%BA%A4%E6%98%93%E6%91%98%E8%A6%81/"/>
+    <id>https://wayne0163.github.io/2022/06/10/20220610%E5%B7%B4%E8%8F%B2%E7%89%B9%E8%B0%88%E4%BA%A4%E6%98%93%E6%91%98%E8%A6%81/</id>
+    <published>2022-06-10T04:33:08.000Z</published>
+    <updated>2022-06-10T08:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;巴菲特认为，做&lt;strong&gt;投资的标准&lt;/strong&gt;是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一是业务为自己所&lt;strong&gt;理解&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;二是&lt;strong&gt;看好长期&lt;/strong&gt;前景；&lt;/li&gt;
+&lt;li&gt;三是经营者&lt;strong&gt;诚实有能力&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;四是&lt;strong&gt;价格吸引人&lt;/strong&gt;。</summary>
+    
+    
+    
+    <category term="投资思考" scheme="https://wayne0163.github.io/categories/%E6%8A%95%E8%B5%84%E6%80%9D%E8%80%83/"/>
+    
+    <category term="价值投资" scheme="https://wayne0163.github.io/categories/%E6%8A%95%E8%B5%84%E6%80%9D%E8%80%83/%E4%BB%B7%E5%80%BC%E6%8A%95%E8%B5%84/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="估值" scheme="https://wayne0163.github.io/tags/%E4%BC%B0%E5%80%BC/"/>
+    
+    <category term="交易" scheme="https://wayne0163.github.io/tags/%E4%BA%A4%E6%98%93/"/>
+    
+    <category term="大师" scheme="https://wayne0163.github.io/tags/%E5%A4%A7%E5%B8%88/"/>
+    
+    <category term="心态" scheme="https://wayne0163.github.io/tags/%E5%BF%83%E6%80%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220610超级竞争下的战略领导力14</title>
+    <link href="https://wayne0163.github.io/2022/06/10/20220610%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E9%A2%86%E5%AF%BC%E5%8A%9B14/"/>
+    <id>https://wayne0163.github.io/2022/06/10/20220610%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E9%A2%86%E5%AF%BC%E5%8A%9B14/</id>
+    <published>2022-06-10T03:54:08.000Z</published>
+    <updated>2022-06-12T08:33:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;公司的战略领导力&quot;&gt;&lt;a href=&quot;#公司的战略领导力&quot; class=&quot;headerlink&quot; title=&quot;公司的战略领导力&quot;&gt;&lt;/a&gt;公司的战略领导力&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/../images/%E5%8A%9E%E5%85%AC4.jpg&quot; alt=&quot;公司&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;有效的战略领导力&lt;/strong&gt;是成功运用战略管理过程的先决条件。战略领导力包括&lt;strong&gt;预测事件，展望未来，保持灵活性以及促使他人进行战略变革&lt;/strong&gt;的能力。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;高层管理者&lt;/strong&gt;是公司建立和开发竞争优势的重要来源。另外，当战略管理者以及他们的工作是有价值的，稀缺的，难以模仿的和不可替代的时，&lt;strong&gt;他们也是竞争优势的重要来源&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业思考" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/"/>
+    
+    <category term="公司战略" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/%E5%85%AC%E5%8F%B8%E6%88%98%E7%95%A5/"/>
+    
+    
+    <category term="公司" scheme="https://wayne0163.github.io/tags/%E5%85%AC%E5%8F%B8/"/>
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="战略" scheme="https://wayne0163.github.io/tags/%E6%88%98%E7%95%A5/"/>
+    
+    <category term="竞争" scheme="https://wayne0163.github.io/tags/%E7%AB%9E%E4%BA%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220608超级竞争下的战略性创业13</title>
+    <link href="https://wayne0163.github.io/2022/06/08/20220608%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E6%80%A7%E5%88%9B%E4%B8%9A13/"/>
+    <id>https://wayne0163.github.io/2022/06/08/20220608%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E6%80%A7%E5%88%9B%E4%B8%9A13/</id>
+    <published>2022-06-08T02:51:08.000Z</published>
+    <updated>2022-06-08T08:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;公司的战略性创业&quot;&gt;&lt;a href=&quot;#公司的战略性创业&quot; class=&quot;headerlink&quot; title=&quot;公司的战略性创业&quot;&gt;&lt;/a&gt;公司的战略性创业&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/../images/%E5%8A%9E%E5%85%AC3.jpg&quot; alt=&quot;公司&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;战略性创业是从战略的角度进行创业活动&lt;/strong&gt;，参与战略性创业的公司同时还采取寻找机会和寻求竞争优势的行为，目的是不断发现新机会并迅速开展创新来利用这些机会。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业思考" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/"/>
+    
+    <category term="公司战略" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/%E5%85%AC%E5%8F%B8%E6%88%98%E7%95%A5/"/>
+    
+    
+    <category term="公司" scheme="https://wayne0163.github.io/tags/%E5%85%AC%E5%8F%B8/"/>
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="战略" scheme="https://wayne0163.github.io/tags/%E6%88%98%E7%95%A5/"/>
+    
+    <category term="竞争" scheme="https://wayne0163.github.io/tags/%E7%AB%9E%E4%BA%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220607移动夜宵车项目的乱弹1</title>
+    <link href="https://wayne0163.github.io/2022/06/07/20220607%E7%A7%BB%E5%8A%A8%E5%A4%9C%E5%AE%B5%E8%BD%A6%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B9%B1%E5%BC%B91/"/>
+    <id>https://wayne0163.github.io/2022/06/07/20220607%E7%A7%BB%E5%8A%A8%E5%A4%9C%E5%AE%B5%E8%BD%A6%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B9%B1%E5%BC%B91/</id>
+    <published>2022-06-07T01:31:08.000Z</published>
+    <updated>2022-06-09T08:51:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../images/%E6%91%86%E6%91%8A1.jpg&quot; alt=&quot;小店&quot;&gt;&lt;/p&gt;
+&lt;p&gt;端午节的时候和一位小伙伴一起吃夜宵，谈到未来的工作、职业、潮流等问题时。朋友说他有一个项目考虑了很久，并且在家里开始小试手艺了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;那就是&lt;/strong&gt;：&lt;strong&gt;开一个移动的夜宵车&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活乱弹" scheme="https://wayne0163.github.io/categories/%E7%94%9F%E6%B4%BB%E4%B9%B1%E5%BC%B9/"/>
+    
+    <category term="项目乱弹" scheme="https://wayne0163.github.io/categories/%E7%94%9F%E6%B4%BB%E4%B9%B1%E5%BC%B9/%E9%A1%B9%E7%9B%AE%E4%B9%B1%E5%BC%B9/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="生活" scheme="https://wayne0163.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="项目" scheme="https://wayne0163.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220604财富的几个真相</title>
+    <link href="https://wayne0163.github.io/2022/06/04/20220604%E8%B4%A2%E5%AF%8C%E7%9A%84%E5%87%A0%E4%B8%AA%E7%9C%9F%E7%9B%B8/"/>
+    <id>https://wayne0163.github.io/2022/06/04/20220604%E8%B4%A2%E5%AF%8C%E7%9A%84%E5%87%A0%E4%B8%AA%E7%9C%9F%E7%9B%B8/</id>
+    <published>2022-06-04T02:31:08.000Z</published>
+    <updated>2022-06-21T08:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../images/%E5%B8%82%E5%9C%BA1.jpg&quot; alt=&quot;财富的梦想&quot;&gt;&lt;br&gt;钱是不是财富？知识是不是财富？买的股票是不是财富？&lt;br&gt;很多人都有这样的疑惑，特别是对于30岁以上有一些房产、股票的中产阶级来说，更是焦虑。这些拿在手中的资产会不会化成水，哪一天醒过来没了。年轻人呢，还好，毕竟生活、工作才刚刚开始，本来也没有什么，两手空空，未来拼搏以后再考虑。&lt;/p&gt;
+&lt;h2 id=&quot;什么是财富&quot;&gt;&lt;a href=&quot;#什么是财富&quot; class=&quot;headerlink&quot; title=&quot;什么是财富&quot;&gt;&lt;/a&gt;什么是财富&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="生活乱弹" scheme="https://wayne0163.github.io/categories/%E7%94%9F%E6%B4%BB%E4%B9%B1%E5%BC%B9/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="生活" scheme="https://wayne0163.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="思维" scheme="https://wayne0163.github.io/tags/%E6%80%9D%E7%BB%B4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220531基金投资入门2</title>
+    <link href="https://wayne0163.github.io/2022/06/01/20220601%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E5%85%A5%E9%97%A82/"/>
+    <id>https://wayne0163.github.io/2022/06/01/20220601%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E5%85%A5%E9%97%A82/</id>
+    <published>2022-06-01T09:20:03.000Z</published>
+    <updated>2022-06-01T09:20:03.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;上期我们讲到了&lt;strong&gt;基金的概念、分类还有基金管理人&lt;/strong&gt;，把基金的最最基础部分做了一个大致的梳理，针对我们经常在支付宝等各类渠道购买的基金，我们今天着重讲讲&lt;strong&gt;如何选择&lt;/strong&gt;和&lt;strong&gt;投资基金&lt;/strong&gt;。&lt;br&gt;&lt;img src=&quot;/../images/%E5%B7%A5%E4%BD%9C1.jpg&quot; alt=&quot;看看风景&quot;&gt;&lt;br&gt;证券投资基金，顾名思义就是投资的对象是证券，包括上市公司股票、债券等。&lt;/p&gt;
+&lt;p&gt;如何投资基金才能取得好的效果呢？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="投资思考" scheme="https://wayne0163.github.io/categories/%E6%8A%95%E8%B5%84%E6%80%9D%E8%80%83/"/>
+    
+    <category term="基金" scheme="https://wayne0163.github.io/categories/%E6%8A%95%E8%B5%84%E6%80%9D%E8%80%83/%E5%9F%BA%E9%87%91/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="基金" scheme="https://wayne0163.github.io/tags/%E5%9F%BA%E9%87%91/"/>
+    
+    <category term="交易" scheme="https://wayne0163.github.io/tags/%E4%BA%A4%E6%98%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220531基金投资入门1</title>
+    <link href="https://wayne0163.github.io/2022/05/31/20220531%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E5%85%A5%E9%97%A81/"/>
+    <id>https://wayne0163.github.io/2022/05/31/20220531%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E5%85%A5%E9%97%A81/</id>
+    <published>2022-05-31T09:20:03.000Z</published>
+    <updated>2022-05-31T09:20:03.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../images/%E5%B7%A5%E4%BD%9C1.jpg&quot; alt=&quot;基金投资&quot;&gt;&lt;br&gt;最近到一个同学那里，边吃火锅边聊起了家庭生活和投资，同学是学医的，现在是一个技术水平很不错的医生了。以前经常干的事挣钱、买房、买铺，最近也开始在支付宝做点基金投资了。不过聊到这时有点小白了，感觉买基金就是看眼缘，那个名字取得好，就买哪个。看净值图形漂亮就持有，感觉不好就卖出。&lt;/p&gt;
+&lt;p&gt;当然基金投资额也不大，连续大大半两居然没有亏损，还有盈利。不过既然聊到这里，如果能在以后的基金投资中多赚点或者省下点，请我喝喝咖啡也好啊。我也正好做两几期简单的基础基金投资博客文稿吧。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="投资思考" scheme="https://wayne0163.github.io/categories/%E6%8A%95%E8%B5%84%E6%80%9D%E8%80%83/"/>
+    
+    <category term="基金" scheme="https://wayne0163.github.io/categories/%E6%8A%95%E8%B5%84%E6%80%9D%E8%80%83/%E5%9F%BA%E9%87%91/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="基金" scheme="https://wayne0163.github.io/tags/%E5%9F%BA%E9%87%91/"/>
+    
+    <category term="交易" scheme="https://wayne0163.github.io/tags/%E4%BA%A4%E6%98%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>概率论和数理统计1</title>
+    <link href="https://wayne0163.github.io/2022/05/30/20220602%E6%A6%82%E7%8E%87%E8%AE%BA%E5%92%8C%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A11/"/>
+    <id>https://wayne0163.github.io/2022/05/30/20220602%E6%A6%82%E7%8E%87%E8%AE%BA%E5%92%8C%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A11/</id>
+    <published>2022-05-30T03:35:21.000Z</published>
+    <updated>2022-05-30T03:35:21.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../images/%E6%95%99%E8%82%B21.jpg&quot; alt=&quot;概率论和统计学的作用&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Python最大的作用就是用很多有用的程序包，很多功能直接拿来就可以用。用motplotlib,很轻松就可以画出很多我们常见的图标，什么散点图、折线图、条状图等等。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="交易思考" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/"/>
+    
+    <category term="概率统计" scheme="https://wayne0163.github.io/categories/%E4%BA%A4%E6%98%93%E6%80%9D%E8%80%83/%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="交易" scheme="https://wayne0163.github.io/tags/%E4%BA%A4%E6%98%93/"/>
+    
+    <category term="概率" scheme="https://wayne0163.github.io/tags/%E6%A6%82%E7%8E%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220529公司的起点、爆点和顶点</title>
+    <link href="https://wayne0163.github.io/2022/05/29/20220529%E5%85%AC%E5%8F%B8%E7%9A%84%E8%B5%B7%E7%82%B9%E3%80%81%E7%88%86%E7%82%B9%E5%92%8C%E9%A1%B6%E7%82%B9/"/>
+    <id>https://wayne0163.github.io/2022/05/29/20220529%E5%85%AC%E5%8F%B8%E7%9A%84%E8%B5%B7%E7%82%B9%E3%80%81%E7%88%86%E7%82%B9%E5%92%8C%E9%A1%B6%E7%82%B9/</id>
+    <published>2022-05-29T09:20:03.000Z</published>
+    <updated>2022-05-30T09:20:03.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;有一家公司，它的成长基本就是靠设计出来。怎么回事，我来慢慢给你讲。&lt;br&gt;这家公司很多商务人士都知道，那就是季琦做的华住酒店体系。他是怎么设计的呢？&lt;br&gt;&lt;img src=&quot;/../images/%E5%8A%9E%E5%85%AC5.jpg&quot; alt=&quot;商业模式&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;华住集团为国内民企背景，原名汉庭酒店，2012 年更名华住，以经济型酒店起家，到布局中端酒店市场，再到进军高端酒店领域，致力于成为效率为先的全品牌酒店集团。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;首先&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业思考" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/"/>
+    
+    <category term="商业模式" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="公司" scheme="https://wayne0163.github.io/tags/%E5%85%AC%E5%8F%B8/"/>
+    
+    <category term="商业模式" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220528超级竞争下的战略——公司治理12</title>
+    <link href="https://wayne0163.github.io/2022/05/28/20220528%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E2%80%94%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%8612/"/>
+    <id>https://wayne0163.github.io/2022/05/28/20220528%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E2%80%94%E5%85%AC%E5%8F%B8%E6%B2%BB%E7%90%8612/</id>
+    <published>2022-05-28T02:31:08.000Z</published>
+    <updated>2022-05-28T08:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;公司治理极其重要性&quot;&gt;&lt;a href=&quot;#公司治理极其重要性&quot; class=&quot;headerlink&quot; title=&quot;公司治理极其重要性&quot;&gt;&lt;/a&gt;公司治理极其重要性&lt;/h2&gt;&lt;p&gt;公司治理涉及公司&lt;strong&gt;利益相关者之间的关系&lt;/strong&gt;，决定了&lt;strong&gt;公司的方向&lt;/strong&gt;，并控制着&lt;strong&gt;公司的业绩&lt;/strong&gt;。公司如何监督和控制高层管理者的决策和行动，会影响战略的实施。&lt;br&gt;&lt;strong&gt;将管理者决策与股东利益统一起来的有效的公司治理机制，可以为公司创造竞争优势。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/../images/%E5%8A%9E%E5%85%AC2.jpg&quot; alt=&quot;公司治理&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业思考" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/"/>
+    
+    <category term="公司战略" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/%E5%85%AC%E5%8F%B8%E6%88%98%E7%95%A5/"/>
+    
+    
+    <category term="公司" scheme="https://wayne0163.github.io/tags/%E5%85%AC%E5%8F%B8/"/>
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="战略" scheme="https://wayne0163.github.io/tags/%E6%88%98%E7%95%A5/"/>
+    
+    <category term="竞争" scheme="https://wayne0163.github.io/tags/%E7%AB%9E%E4%BA%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220525超级竞争下的合作战略11</title>
+    <link href="https://wayne0163.github.io/2022/05/25/20220525%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E5%90%88%E4%BD%9C%E6%88%98%E7%95%A511/"/>
+    <id>https://wayne0163.github.io/2022/05/25/20220525%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E5%90%88%E4%BD%9C%E6%88%98%E7%95%A511/</id>
+    <published>2022-05-25T02:31:08.000Z</published>
+    <updated>2022-05-28T08:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;合作战略&quot;&gt;&lt;a href=&quot;#合作战略&quot; class=&quot;headerlink&quot; title=&quot;合作战略&quot;&gt;&lt;/a&gt;合作战略&lt;/h2&gt;&lt;p&gt;合作战略是通过公司间的合作来实现各主体的共同目标的战略。&lt;/p&gt;
+&lt;h3 id=&quot;合作战略的两种形式&quot;&gt;&lt;a href=&quot;#合作战略的两种形式&quot; class=&quot;headerlink&quot; title=&quot;合作战略的两种形式&quot;&gt;&lt;/a&gt;合作战略的两种形式&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;战略联盟&lt;/strong&gt;是合作战略的主要形式，联盟中的公司整合各自的资源和能力来获取竞争优势。&lt;strong&gt;合资企业&lt;/strong&gt;（占股比例相同）、&lt;strong&gt;产权战略联盟&lt;/strong&gt;和&lt;strong&gt;非产权战略联盟&lt;/strong&gt;是战略联盟的三种基本形式。而&lt;strong&gt;外包&lt;/strong&gt;是一种常见的非产权战略联盟。&lt;/li&gt;
+&lt;/ol&gt;</summary>
+    
+    
+    
+    <category term="商业思考" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/"/>
+    
+    <category term="公司战略" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/%E5%85%AC%E5%8F%B8%E6%88%98%E7%95%A5/"/>
+    
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="战略" scheme="https://wayne0163.github.io/tags/%E6%88%98%E7%95%A5/"/>
+    
+    <category term="竞争" scheme="https://wayne0163.github.io/tags/%E7%AB%9E%E4%BA%89/"/>
+    
+    <category term="合作" scheme="https://wayne0163.github.io/tags/%E5%90%88%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>20220524超级竞争下的战略:组织结构及控制10</title>
+    <link href="https://wayne0163.github.io/2022/05/24/20220524%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E2%80%94%E7%BB%84%E7%BB%87%E6%9E%B6%E6%9E%84%E4%B8%8E%E6%8E%A7%E5%88%B610/"/>
+    <id>https://wayne0163.github.io/2022/05/24/20220524%E8%B6%85%E7%BA%A7%E7%AB%9E%E4%BA%89%E4%B8%8B%E7%9A%84%E6%88%98%E7%95%A5%E2%80%94%E7%BB%84%E7%BB%87%E6%9E%B6%E6%9E%84%E4%B8%8E%E6%8E%A7%E5%88%B610/</id>
+    <published>2022-05-24T02:31:08.000Z</published>
+    <updated>2022-05-30T08:31:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;组织结构&quot;&gt;&lt;a href=&quot;#组织结构&quot; class=&quot;headerlink&quot; title=&quot;组织结构&quot;&gt;&lt;/a&gt;组织结构&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;它详细指明了公司的正式报告关系、程序控制、授权以及决策制定程序&lt;/strong&gt;。&lt;br&gt;从本质上说，组织结构决定了公司&lt;strong&gt;应该做什么，以及如何做&lt;/strong&gt;。组织控制引导着战略的实施，并指出应如何比较现实结果和期望结果，当期望结果未实现时，建议采取行动以提高业绩。&lt;br&gt;战略与结构的适当匹配，有助于公司获得竞争优势。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="商业思考" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/"/>
+    
+    <category term="公司战略" scheme="https://wayne0163.github.io/categories/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83/%E5%85%AC%E5%8F%B8%E6%88%98%E7%95%A5/"/>
+    
+    
+    <category term="商业" scheme="https://wayne0163.github.io/tags/%E5%95%86%E4%B8%9A/"/>
+    
+    <category term="战略" scheme="https://wayne0163.github.io/tags/%E6%88%98%E7%95%A5/"/>
+    
+    <category term="竞争" scheme="https://wayne0163.github.io/tags/%E7%AB%9E%E4%BA%89/"/>
+    
+    <category term="组织" scheme="https://wayne0163.github.io/tags/%E7%BB%84%E7%BB%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>投资思维是人生的最底层思维1</title>
+    <link href="https://wayne0163.github.io/2022/05/21/20220603%E6%8A%95%E8%B5%84%E6%80%9D%E7%BB%B4%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E6%9C%80%E5%BA%95%E5%B1%82%E6%80%9D%E7%BB%B41/"/>
+    <id>https://wayne0163.github.io/2022/05/21/20220603%E6%8A%95%E8%B5%84%E6%80%9D%E7%BB%B4%E6%98%AF%E4%BA%BA%E7%94%9F%E7%9A%84%E6%9C%80%E5%BA%95%E5%B1%82%E6%80%9D%E7%BB%B41/</id>
+    <published>2022-05-21T00:01:02.000Z</published>
+    <updated>2022-05-31T00:01:02.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/../images/%E9%A3%8E%E6%99%AF2.jpg&quot; alt=&quot;投资思维&quot;&gt;&lt;/p&gt;
+&lt;p&gt;我一直都相信，能把投资思维用起来的人一定不会差到哪里去。&lt;/p&gt;
+&lt;p&gt;特别是在当今科技快速发展，全球化不断深入，市场变化转换极快的当下，具备投资思维的人，并将投资思维用到自己生活工作方方面面的人，更具备跟上时代潮流，适时规避各类风险，长期实现人生价值的能力。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="生活乱弹" scheme="https://wayne0163.github.io/categories/%E7%94%9F%E6%B4%BB%E4%B9%B1%E5%BC%B9/"/>
+    
+    <category term="人生乱弹" scheme="https://wayne0163.github.io/categories/%E7%94%9F%E6%B4%BB%E4%B9%B1%E5%BC%B9/%E4%BA%BA%E7%94%9F%E4%B9%B1%E5%BC%B9/"/>
+    
+    
+    <category term="投资" scheme="https://wayne0163.github.io/tags/%E6%8A%95%E8%B5%84/"/>
+    
+    <category term="生活" scheme="https://wayne0163.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    
+    <category term="原则" scheme="https://wayne0163.github.io/tags/%E5%8E%9F%E5%88%99/"/>
+    
+  </entry>
+  
+</feed>
