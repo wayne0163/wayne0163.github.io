@@ -1,0 +1,313 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>hexo BLOG 操作清单 | 滴水成濯锦</title>
+<link rel="shortcut icon" href="https://wayne0163.github.io//favicon.ico?v=1715100130401">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://wayne0163.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="hexo BLOG 操作清单 | 滴水成濯锦 - Atom Feed" href="https://wayne0163.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="有一段时间没有写BLOG了，今天写上一段，发现很多程序写法给忘了，因为不是专业的程序员嘛，加上一段时间没有用就给忘了。但是基本的几个语法还是记得的。为了不让自己再次遗忘，然后上网去找，干脆自己就在自己的BLOG里面把全部的命令给写上吧。因为..." />
+    <meta name="keywords" content="程序,网络" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://wayne0163.github.io/">
+  <img class="avatar" src="https://wayne0163.github.io//images/avatar.png?v=1715100130401" alt="">
+  </a>
+  <h1 class="site-title">
+    滴水成濯锦
+  </h1>
+  <p class="site-description">
+    人不能孤独，要敢于迈出第一步。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              hexo BLOG 操作清单
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-10-31
+              </span>
+              <span>
+                7 min read
+              </span>
+              
+                <a href="https://wayne0163.github.io/tag/1MUyK6o9E/" class="post-tag">
+                  # 程序
+                </a>
+              
+                <a href="https://wayne0163.github.io/tag/MOYztr_csN/" class="post-tag">
+                  # 网络
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>有一段时间没有写BLOG了，今天写上一段，发现很多程序写法给忘了，因为不是专业的程序员嘛，加上一段时间没有用就给忘了。但是基本的几个语法还是记得的。为了不让自己再次遗忘，然后上网去找，干脆自己就在自己的BLOG里面把全部的命令给写上吧。因为是自己写的嘛，符合自己的习惯，也就不会再忘了。（在网络上搜出来的，很多需要自己去一个个找，也挺麻烦的。还有的少了或者错了几个地方，自己也不知道）</p>
+<!--more-->
+<h2 id="基本的写入和上传">基本的写入和上传</h2>
+<ul>
+<li>写入：hexo n ~</li>
+<li>生成并上传：hexo g -d</li>
+</ul>
+<h2 id="github-操作">github 操作</h2>
+<ol>
+<li>上传：</li>
+</ol>
+<ul>
+<li>git add .</li>
+<li>git commit -m '~'</li>
+<li>git push</li>
+</ul>
+<ol start="2">
+<li>下载：</li>
+</ol>
+<ul>
+<li>git pull</li>
+</ul>
+<h2 id="双机备份">双机备份：</h2>
+<!--more-->
+<ol>
+<li>首先是目标机器下载：node、git</li>
+<li>npm安装hexo：三个命令——npm install hexo-cli;npm install ;npm install deployer--git</li>
+<li>Step1下载安装Node.js和Git;<br>
+Step2 配置本地Git环境，由于我们已经注册了相关信息，所以只需要设置好ssh密钥，方法见我之前的博客Windows平台下Github远程仓库的搭建;<br>
+Step3 如果需要部署到Coding，那么还可以继续参照我的这篇博客利用Hexo将博客部署到GitPages和CodingPages进行ssh密钥绑定;<br>
+Step4 下载安装Typora等Markdown编辑器;<br>
+Step5 下载安装腾讯云对象存储客户端cosbrowser。<br>
+1.2资源配置依赖<br>
+我们在制作博客网站的过程中安装了很多npm的资源包，这些资源包很多，我们没必要一一拷贝，具体如下：</li>
+</ol>
+<p>安装Hexo:<br>
+npm install -g hexo-cli<br>
+利用package.json部署资源：<br>
+{<br>
+&quot;name&quot;: &quot;hexo-site&quot;,<br>
+&quot;version&quot;: &quot;0.0.0&quot;,<br>
+&quot;private&quot;: true,<br>
+&quot;hexo&quot;: {<br>
+&quot;version&quot;: &quot;3.8.0&quot;<br>
+},<br>
+&quot;dependencies&quot;: {<br>
+&quot;eslint&quot;: &quot;4.12.1&quot;,<br>
+&quot;gulp&quot;: &quot;^4.0.0&quot;,<br>
+&quot;hexo&quot;: &quot;^3.7.0&quot;,<br>
+&quot;hexo-deployer-git&quot;: &quot;^1.0.0&quot;,<br>
+&quot;hexo-generator-archive&quot;: &quot;^0.1.5&quot;,<br>
+&quot;hexo-generator-baidu-sitemap&quot;: &quot;^0.1.6&quot;,<br>
+&quot;hexo-generator-category&quot;: &quot;^0.1.3&quot;,<br>
+&quot;hexo-generator-cname&quot;: &quot;^0.3.0&quot;,<br>
+&quot;hexo-generator-feed&quot;: &quot;^1.2.2&quot;,<br>
+&quot;hexo-generator-index&quot;: &quot;^0.2.1&quot;,<br>
+&quot;hexo-generator-searchdb&quot;: &quot;^1.0.8&quot;,<br>
+&quot;hexo-generator-tag&quot;: &quot;^0.2.0&quot;,<br>
+&quot;hexo-helper-live2d&quot;: &quot;^3.1.0&quot;,<br>
+&quot;hexo-neat&quot;: &quot;^1.0.4&quot;,<br>
+&quot;hexo-pdf&quot;: &quot;^1.1.1&quot;,<br>
+&quot;hexo-renderer-ejs&quot;: &quot;^0.3.1&quot;,<br>
+&quot;hexo-renderer-markdown-it-plus&quot;: &quot;^1.0.4&quot;,<br>
+&quot;hexo-renderer-mathjax&quot;: &quot;^0.6.0&quot;,<br>
+&quot;hexo-renderer-stylus&quot;: &quot;^0.3.3&quot;,<br>
+&quot;hexo-server&quot;: &quot;^0.3.3&quot;,<br>
+&quot;hexo-wordcount&quot;: &quot;^6.0.1&quot;,<br>
+&quot;live2d-widget-model-tororo&quot;: &quot;^1.0.5&quot;,<br>
+&quot;live2d-widget-model-wanko&quot;: &quot;^1.0.5&quot;<br>
+},<br>
+&quot;devDependencies&quot;: {<br>
+&quot;babel-cli&quot;: &quot;^6.26.0&quot;,<br>
+&quot;babel-preset-es2015&quot;: &quot;^6.24.1&quot;,<br>
+&quot;gulp-babel&quot;: &quot;^8.0.0&quot;,<br>
+&quot;gulp-htmlclean&quot;: &quot;^2.7.22&quot;,<br>
+&quot;gulp-htmlmin&quot;: &quot;^5.0.1&quot;,<br>
+&quot;gulp-minify-css&quot;: &quot;^1.2.4&quot;,<br>
+&quot;gulp-uglify&quot;: &quot;^3.0.1&quot;<br>
+}<br>
+}<br>
+我们只需要在同一目录下执行即可自动下载安装所有资源</p>
+<p>npm install<br>
+1.3博客内容依赖<br>
+博客内容依赖包括主题文件和博客文件，因此我们需要的部分就是：</p>
+<p>.<br>
+|—— scaffolds<br>
+|—— source<br>
+|—— themes<br>
+|—— .gitignore<br>
+|—— _config.yml<br>
+|—— db.json<br>
+|—— gulpfile.js<br>
+|—— package.json<br>
+|—— package-lock.json<br>
+2.部署远程仓库<br>
+2.1同步远程仓库<br>
+部署远程仓库的目的是将本地的博客源文件同步到远程仓库，当然并不是master分支，具体过程如下：</p>
+<p>Step1 删除第三方主题下的.git文件夹；<br>
+Step2 配置.gitignore文件：<br>
+.DS_Store Thumbs.db db.json <em>.log node_modules/ public/ .deploy</em>/</p>
+<p>Step3 将项目源文件同步到远程仓库对应的hexo分支：<br>
+git init  //初始化本地仓库<br>
+git add -A //添加本地所有文件到仓库<br>
+git commit -m &quot;blog源文件&quot; //添加commit<br>
+git branch hexo //添加本地仓库分支hexo<br>
+git remote add origin 博客的git地址  //添加远程仓库<br>
+git push origin hexo //将本地仓库的源文件推送到远程仓库hexo分支<br>
+如果出现报错信息：</p>
+<p>ERROR: Repository not found.<br>
+fatal: Could not read from remote repository.<br>
+则首先检查ssh配置是否正确，并检查git地址是否一致，利用</p>
+<p>git remote -v</p>
+<p>如果不一致，则通过如下方式改变：</p>
+<p>git remote set-url origin git地址</p>
+<p>2.2 隐藏源文件<br>
+如果将原文件同步至分支，则会由于GitPages或者CodingPages的特性，自动变为公开目录，如果其中有一些不希望别人看见的信息，则会变得不方便，所以我们可以新建一个私有仓库进行同步。</p>
+<p>Step1 如果之前已经新建了hexo分支，那么可以选择性的删除该分支；<br>
+Step2 新建一个私有仓库：</p>
+<p>Step3 更新远程仓库（如果不行的话，更新ssh）<br>
+git init  //初始化本地仓库<br>
+git remote add origin 博客的git地址  //添加远程仓库<br>
+git pull origin master<br>
+git add . //添加本地所有文件到仓库<br>
+git commit -m &quot;blog源文件&quot; //添加commit<br>
+git push -u origin master<br>
+3.更新远程和本地仓库<br>
+对于本地电脑，如果是第一次使用，则输入：</p>
+<p>git clone -b &lt;分支&gt; <server> &lt;待存放路径&gt; //<server> 是指在线仓库的地址<br>
+cd &lt;待存放路径&gt;<br>
+npm install<br>
+如果不是第一次操作，对于本地仓库的更新，可执行：</p>
+<p>git pull</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%9F%BA%E6%9C%AC%E7%9A%84%E5%86%99%E5%85%A5%E5%92%8C%E4%B8%8A%E4%BC%A0">基本的写入和上传</a></li>
+<li><a href="#github-%E6%93%8D%E4%BD%9C">github 操作</a></li>
+<li><a href="#%E5%8F%8C%E6%9C%BA%E5%A4%87%E4%BB%BD">双机备份：</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://wayne0163.github.io/post/20220825投资者的怪圈11附录基本投资规则/">
+              <h3 class="post-title">
+                20220825投资者的怪圈11附录基本投资规则
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://wayne0163.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

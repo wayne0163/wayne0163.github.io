@@ -1,0 +1,235 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>发现了一个有用的股票数据分析的 python 库 | 滴水成濯锦</title>
+<link rel="shortcut icon" href="https://wayne0163.github.io//favicon.ico?v=1715100130401">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://wayne0163.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="发现了一个有用的股票数据分析的 python 库 | 滴水成濯锦 - Atom Feed" href="https://wayne0163.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="pandas_ta 是一个 Python 库，它提供了技术分析指标的实现，这些指标通常用于股票市场分析。它建立在 pandas 库之上，pandas 是一个强大的数据处理和分析工具，特别适合处理表格数据，如金融时间序列数据。
+我尝试总结了一..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://wayne0163.github.io/">
+  <img class="avatar" src="https://wayne0163.github.io//images/avatar.png?v=1715100130401" alt="">
+  </a>
+  <h1 class="site-title">
+    滴水成濯锦
+  </h1>
+  <p class="site-description">
+    人不能孤独，要敢于迈出第一步。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              发现了一个有用的股票数据分析的 python 库
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-05-08
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p><code>pandas_ta</code> 是一个 Python 库，它提供了技术分析指标的实现，这些指标通常用于股票市场分析。它建立在 <code>pandas</code> 库之上，<code>pandas</code> 是一个强大的数据处理和分析工具，特别适合处理表格数据，如金融时间序列数据。</p>
+<p>我尝试总结了一下 pandas_ta 的一些特点：</p>
+<!-- more -->
+<ol>
+<li>
+<p><strong>技术分析指标</strong>：<code>pandas_ta</code> 提供了超过 100 种不同的技术分析指标，包括移动平均线、振荡器、动量指标等。</p>
+</li>
+<li>
+<p><strong>易于使用</strong>：它允许用户通过简单的函数调用来计算这些指标，无需深入了解底层的数学公式。</p>
+</li>
+<li>
+<p><strong>数据可视化</strong>：<code>pandas_ta</code> 可以与 <code>matplotlib</code> 等可视化库结合使用，方便用户直观地查看指标和图表。</p>
+</li>
+<li>
+<p><strong>自定义指标</strong>：用户可以根据自己的需求创建自定义的技术分析指标。</p>
+</li>
+<li>
+<p><strong>回测功能</strong>：虽然 <code>pandas_ta</code> 本身不提供完整的回测框架，但它的指标可以很容易地集成到其他回测系统中。</p>
+</li>
+<li>
+<p><strong>兼容性</strong>：它与 <code>pandas</code> 的 DataFrame 对象兼容，可以轻松地处理来自金融市场的数据。</p>
+</li>
+<li>
+<p><strong>社区支持</strong>：作为一个开源项目，<code>pandas_ta</code> 有一个活跃的社区，用户可以从中获得帮助和灵感。</p>
+</li>
+</ol>
+<p>要安装 <code>pandas_ta</code>，可以使用 <code>pip</code>：</p>
+<pre><code class="language-bash">pip install pandas_ta
+</code></pre>
+<p>使用 <code>pandas_ta</code> 的一个简单示例：</p>
+<pre><code class="language-python">import pandas as pd
+import pandas_ta as ta
+
+# 假设 df 是一个包含股票历史数据的 pandas DataFrame
+# 计算简单移动平均线（SMA）
+df['SMA_10'] = ta.sma(df, close='Close', window=10)
+
+# 计算相对强弱指数（RSI）
+df['RSI'] = ta.rsi(df, close='Close', window=14)
+
+# 可视化结果
+import matplotlib.pyplot as plt
+
+df.plot(x='Date', y=['Close', 'SMA_10', 'RSI'])
+plt.show()
+</code></pre>
+<p><strong>Pandas TA的技术指标主要有以下几类：</strong></p>
+<ol>
+<li>均线类指标（Overlap）</li>
+<li>动量指标（Momentum）</li>
+<li>趋势指标（Trend）</li>
+<li>波动率指标（Volatility）</li>
+<li>成交量指标（Volume）</li>
+<li>统计指标（Statistics）</li>
+<li>其他指标</li>
+</ol>
+<p>可以用以下语句一次性计算Pandas TA 的所有指标值或某个类型的指标值：</p>
+<h1 id="计算pandas-ta-的所有指标值使用默认参数">计算Pandas TA 的所有指标值，使用默认参数</h1>
+<p>df.ta.strategy(&quot;All&quot;)</p>
+<h1 id="计算pandas-ta-的momentum类的指标值使用默认参数">计算Pandas TA 的&quot;Momentum&quot;类的指标值，使用默认参数</h1>
+<p>df.ta.strategy(&quot;Momentum&quot;)</p>
+<h1 id="计算doji-2crows这两个指标使用默认参数">计算[&quot;doji&quot;, &quot;2crows&quot;]这两个指标，使用默认参数</h1>
+<p>df.ta.cdl_pattern(name=[&quot;doji&quot;, &quot;2crows&quot;], append=True)</p>
+<p>当然，要注意的是，尽管 <code>pandas_ta</code> 提供了强大的工具来分析股票数据，但它并不能保证投资成功，因为股票市场受到许多不可预测因素的影响。此外，技术分析只是投资决策过程中的一个工具，应该与其他分析方法和个人判断相结合使用。<br>
+我再下来好好研究研究。</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E8%AE%A1%E7%AE%97pandas-ta-%E7%9A%84%E6%89%80%E6%9C%89%E6%8C%87%E6%A0%87%E5%80%BC%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0">计算Pandas TA 的所有指标值，使用默认参数</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97pandas-ta-%E7%9A%84momentum%E7%B1%BB%E7%9A%84%E6%8C%87%E6%A0%87%E5%80%BC%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0">计算Pandas TA 的&quot;Momentum&quot;类的指标值，使用默认参数</a></li>
+<li><a href="#%E8%AE%A1%E7%AE%97doji-2crows%E8%BF%99%E4%B8%A4%E4%B8%AA%E6%8C%87%E6%A0%87%E4%BD%BF%E7%94%A8%E9%BB%98%E8%AE%A4%E5%8F%82%E6%95%B0">计算[&quot;doji&quot;, &quot;2crows&quot;]这两个指标，使用默认参数</a></li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://wayne0163.github.io/post/ju-ran-xue-hui-liao-lei-ji-cheng-deng-gai-nian/">
+              <h3 class="post-title">
+                居然学会了类继承等概念
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://wayne0163.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>学习项目的服务器部署 | 滴水成濯锦</title>
+<link rel="shortcut icon" href="https://wayne0163.github.io//favicon.ico?v=1715100130401">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://wayne0163.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="学习项目的服务器部署 | 滴水成濯锦 - Atom Feed" href="https://wayne0163.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="本来读书的时候就很喜欢计算机，可惜有几点原因，最后没能坚持下来。
+一个是因为英语不好，而编程和计算机都有大量的英语，学习了很多遍但都还是记不住，就逐渐陌生了起来，最后自学过的也记不住了。比如自学过 foxbase、C、C++，最后想不起来了..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://wayne0163.github.io/">
+  <img class="avatar" src="https://wayne0163.github.io//images/avatar.png?v=1715100130401" alt="">
+  </a>
+  <h1 class="site-title">
+    滴水成濯锦
+  </h1>
+  <p class="site-description">
+    人不能孤独，要敢于迈出第一步。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              学习项目的服务器部署
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-03-14
+              </span>
+              <span>
+                8 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>本来读书的时候就很喜欢计算机，可惜有几点原因，最后没能坚持下来。</p>
+<p>一个是因为英语不好，而编程和计算机都有大量的英语，学习了很多遍但都还是记不住，就逐渐陌生了起来，最后自学过的也记不住了。比如自学过 foxbase、C、C++，最后想不起来了。</p>
+<p>第二个原因是因为学的文科，也没有好的老师、同学和氛围，许多问题得不到解答，比如 C++里面面向对象的编程思路，看书好像是学懂了，但是有很多的 why、how、what 都不知道。</p>
+<p>第三个原因可能是也是因为自学，不知道循序渐进或者说体系化，比如学过 C、学过操作系统原理、学过数据库、学过网络基础，最后太杂了，记不住，也没有实践经验。最后，一个狂热的爱好者就沉寂了。<br>
+<img src="https://wayne0163.github.io//post-images/1710379831656.jpg" alt="" loading="lazy"></p>
+<!-- more -->
+<p>现在想的是可以在 github 上看看好的开源项目，自己下来玩玩，所以可以先自己看看后端的服务器部署问题，如果可以简单的部署，那么弄几个项目练练手也好。不需要复杂的深入。</p>
+<p>找到一篇文章，自己整合一下学习来看看。</p>
+<h2 id="如何做项目部署让一个网站跑起来">如何做项目部署，让一个网站跑起来</h2>
+<blockquote>
+<p>本文以我的开源博客sinn为例，为你梳理一个web应用是如何跑起来的。</p>
+</blockquote>
+<p>一，跑起一个web应用需要哪些准备<br>
+要跑起一个web应用，它通常需要以下几样东西：</p>
+<p><strong>服务器<br>
+编程语言环境<br>
+应用程序<br>
+应用依赖的工具</strong></p>
+<p>下面来说说它们各自的作用。</p>
+<ol>
+<li><strong>首先说说服务器</strong></li>
+</ol>
+<p>任何应用程序都是基于操作系统运行起来的，web应用也不例外。</p>
+<p>服务器通常包含了操作系统以及相关的服务，如网络服务，IP服务等等。对于web应用来说，服务器的主要作用在于为web应用程序的运行提供操作系统环境以及服务。</p>
+<p>目前服务器按操作系统可分为两大类，一类是window服务器，二是linux服务器。很显然，window服务器自带了window操作系统，linux服务器自带了linxu操作系统。</p>
+<p>其中linux服务器应用最为广泛，而linux服务器的操作系统有好几种，主要有RHEL、CentOS、Debian、Ubuntu、Suse。其中用的最多的莫过于ubuntu和centos系统。而window服务器则由于其糟糕的生态等原因而越来越不受欢迎。通常部署应用首推linux服务器。<br>
+因此，首先你需要一个linux服务器为应用程序提供操作系统运行环境和服务。</p>
+<ol start="2">
+<li><strong>其次，编程语言环境</strong></li>
+</ol>
+<p>所谓编程语言环境，也就是nodejs, java, php等编程语言的运行环境。</p>
+<p>应用程序是使用编程语言开发的，因此，应用程序的运行需要依赖于编程语言环境。</p>
+<p>举个例子，要运行一个nodejs后台应用，就需要有nodejs运行环境。运行一个java后台应用，就需要有java运行环境。</p>
+<p>有必须说明的是，一个网站的前台和后台的运行环境是不一样的。</p>
+<p>前台的编程语言环境在客户端(浏览器)，后台的编程语言环境在服务器端。</p>
+<p>*前台<br>
+*前台主要是在客户端运行的，也就是在浏览器渲染的。前台的编程语言环境就是浏览器环境，这是因为前台的编程语言主要是html,css和js，而浏览器本身内置了对html,css和js的解析。也就是说，前台应用并不需要在服务器搭建编程语言环境。</p>
+<p>*后台<br>
+*后台则不同，后台应用是在服务器端运行，但服务器通常不会集成编程语言环境，因此后台应用往往需要在服务器搭建自己的编程语言环境。如果是nodejs应用，就搭建nodejs运行环境，如果是php应用，就需要搭建php运行环境，等等。因此，有了服务器之后，你就可以在服务器上搭建你的后台编程语言环境。</p>
+<ol start="3">
+<li><strong>应用程序</strong></li>
+</ol>
+<p>有了服务器和编程语言环境后，就等于有了应用程序的运行基础。</p>
+<p>这里所指的应用程序，是你基于某种编程语言开发出来的应用。比如一个基于nodejs开发的node后台应用。</p>
+<ol start="4">
+<li><strong>依赖的工具</strong></li>
+</ol>
+<p>有了应用程序之后，还需要搭建一些这个应用程序所依赖的工具。</p>
+<p>比如说，后台应用往往需要数据库来存储应用数据，比如mongodb,mysql等等。<br>
+而前台应用往往需要nginx来做静态资源服务，nginx也可用于做代理和接口转发。</p>
+<p>这些都是应用程序运行所依赖的工具。</p>
+<p>至此，服务器，编程语言环境，应用程序，依赖的工具都具备了，可以着手部署应用了。</p>
+<p>二，前台部署与后台部署的不同<br>
+这里主要讲两点不同。</p>
+<p>1，部署的方式不同。<br>
+前台</p>
+<p>首先，前台所用的编程语言主要有html,css,js，前台代码主要生成一些静态资源文件，比如html文件，css文件，js文件等静态资源文件。</p>
+<p>因此，前台应用的部署实际上就是静态资源的部署。</p>
+<p>那么，如何在服务器上做静态资源部署呢？</p>
+<p>首先，前台代码生成一些静态资源文件，比如html文件，css文件，js文件等静态资源文件。</p>
+<p>然后把这些静态资源(前台代码）发布到服务器上的某个目录下，然后在服务器端用nginx,apache或tomcat等工具架起一层静态资源访问服务，指定当客户端(浏览器)根据域名访问时，访问这个静态资源目录下的入口文件，比如index.html。</p>
+<p>入口文件往往加载了一些css文件，js文件，图片等静态资源文件，因此，当访问入口文件index.html时浏览器会根据入口文件里的引用去请求服务器静态资源目录下的css文件，js文件，图片等静态资源。</p>
+<p>如，当访问SInn-小客栈-程序员的小黑屋的时候，实际上是浏览器请求了域名为sinn.boyagirl.com的服务器上某静态资源目录下的index.html文件并做渲染处理，在渲染时浏览器再根据index.html里面的引用去请求这个静态资源目录下的css,js,img等静态资源，并在浏览器渲染出来。</p>
+<p>浏览器的请求分为两类，一类是静态资源请求，比如请求html,css,js,img等静态资源，其作用在于把应用前台UI渲染出来。另一类请求则是接口请求, 也就是请求后台接口，与后台应用进行数据交互，将请求的数据赋给UI。</p>
+<p>以上就是前台部署和访问的全过程。</p>
+<p>后台</p>
+<p>后台应用是在服务器端运行的，因此首先需要在后端搭建该应用的编程语言环境。其次搭建该应用所依赖的工具，比如数据库，进程管理工具等等。</p>
+<p>以sinn的后台sinn-server为例。这是一个基于nodejs开发后台应用，使用mongodb作为数据库。</p>
+<p>因此，部署sinn-server，首先需要在服务器搭建nodejs运行环境。有了nodejs编程语言环境之后，还需要搭建mongodb数据库等依赖的工具。</p>
+<p>2，部署工具不同<br>
+前台部署是静态资源部署，使用了nginx, apache,或者tomcat等工具。其中最常用的就是nginx。</p>
+<p>后台部署需要搭建编程语言环境，如果是php,java等应用，通常也还需要使用apache/tomcat搭建相应的程序服务。除此之外，后台应用往往还依赖数据库，进程管理器等应用程序工具。</p>
+<p>经过上面的分析之后呢，相信你已经了解到了部署一个应用程序的过程。</p>
+<h2 id="下一步学习的重点">下一步学习的重点</h2>
+<p>看了上面的分析，自己明确了下一步可以琢磨的重点了。</p>
+<ul>
+<li>Linux 系统的部分学习</li>
+<li>简单数据库及部署的学习</li>
+<li>环境部署软件的学习：pip、nginx等工具的使用</li>
+</ul>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%81%9A%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2%E8%AE%A9%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99%E8%B7%91%E8%B5%B7%E6%9D%A5">如何做项目部署，让一个网站跑起来</a></li>
+<li><a href="#%E4%B8%8B%E4%B8%80%E6%AD%A5%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%87%8D%E7%82%B9">下一步学习的重点</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://wayne0163.github.io/post/20240223-tou-zi-bing-gou-yu-qi-ye-zeng-chang/">
+              <h3 class="post-title">
+                20240203投资并购与企业增长02
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://wayne0163.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

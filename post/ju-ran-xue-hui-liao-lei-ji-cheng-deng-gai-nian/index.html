@@ -1,0 +1,170 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>居然学会了类继承等概念 | 滴水成濯锦</title>
+<link rel="shortcut icon" href="https://wayne0163.github.io//favicon.ico?v=1715100130401">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://wayne0163.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="居然学会了类继承等概念 | 滴水成濯锦 - Atom Feed" href="https://wayne0163.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="最近学习 Java，看了哔哩上面的视频，虽然还不会编写，但是基本看懂了，也知道了如何提高编程效率的。
+重新开始学习 Python，特别是里面的 numpy、pandas、mutplotlib 等数据分析包的实用。这对于以后进行资产评估，做做..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://wayne0163.github.io/">
+  <img class="avatar" src="https://wayne0163.github.io//images/avatar.png?v=1715100130401" alt="">
+  </a>
+  <h1 class="site-title">
+    滴水成濯锦
+  </h1>
+  <p class="site-description">
+    人不能孤独，要敢于迈出第一步。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              居然学会了类继承等概念
+            </h2>
+            <div class="post-info">
+              <span>
+                2024-04-27
+              </span>
+              <span>
+                1 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>最近学习 Java，看了哔哩上面的视频，虽然还不会编写，但是基本看懂了，也知道了如何提高编程效率的。<br>
+重新开始学习 Python，特别是里面的 numpy、pandas、mutplotlib 等数据分析包的实用。这对于以后进行资产评估，做做上市公司分析，股票走势预测等非常重要，可能是自己以后的重点兴趣方向。</p>
+<p>本来是对着 JAVA 来的，但是学了一阵子，发现还是 Python 好用，里面没有那么对限制，用起来非常自然，顺手。</p>
+<p>只用了一个晚上，就把 numpy 给学完了，以前不懂不熟悉的，现在一下就会了，这也是一种学习力吧。以前练习了很久的的数据处理也用上了，加上还有 ChatGPT 的加持，弄不懂才怪了。</p>
+<p>加油，为了5年后退休！</p>
+
+              </div>
+              <div class="toc-container">
+                
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://wayne0163.github.io/post/rang-chatgpt-wei-wo-da-zao-yi-ge-xue-xi-xi-tong/">
+              <h3 class="post-title">
+                让 ChatGPT 为我打造一个学习系统
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://wayne0163.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
